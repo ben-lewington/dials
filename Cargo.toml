@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "dials",
+    "dials-macros",
+]
+resolver = "2"
