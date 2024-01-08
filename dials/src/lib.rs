@@ -44,7 +44,7 @@ $(
         type Output = Modulo<N, $n>;
 
         fn sub(self, rhs: Self) -> Self::Output {
-            // Soundness:
+            // SOUNDNESS:
             // we know:
             //     l, r < N
             // =>
