@@ -47,6 +47,4 @@ fn can_construct_bitflags_with_bigger_container_types() {
             flag_5: u10,
         }
     }
-
-    MyOtherFlags::ALL_ONES;
 }

@@ -104,7 +104,7 @@ impl SpecField {
                 }
                 pub fn #set_fld(&mut self, mut value: #struct_container_ty) -> &mut Self {
                     if value >= #lit_2_as_struct_container_type.pow(Self::#fld_const_id_sz as u32) {
-                        value = value % #lit_2_as_struct_container_type.pow(Self::FLAG_4_SIZE as u32);
+                        value = value % #lit_2_as_struct_container_type.pow(Self::#fld_const_id_sz as u32);
                     }
                     let mask = Self::ALL_ONES ^ Self::#fld_const_id;
 
